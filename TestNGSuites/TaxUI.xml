@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="Utility.RetryListener"/>
+    </listeners>
+    <groups>
+        <run>
+            <include name="TaxRule"/>
+        </run>
+    </groups>
+    <parameter name="Project" value="TaxUI"/>
+    <parameter name="dataFile" value="TaxData"/>
+    <test name="LoginTestCases">
+        <classes>
+            <class name="com.TaxUI.TestCases.TaxRegression"/>
+        </classes>
+    </test>
+</suite>

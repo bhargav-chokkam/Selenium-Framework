@@ -1,0 +1,17 @@
+{
+  "sandBoxTitle": "My Apps Dashboard | WU",
+  "taxUITitle": "WU Taxes Engine",
+  "Country": "India",
+  "RuleName": "IndiaTaxRule",
+  "Currency": "INR",
+  "SendPay": "Send",
+  "Comment": "123",
+  "StartDate": "1/1/2024 00:00:00",
+  "EndDate": "1/1/2025 00:00:00",
+  "TaxCalculatedOn": "Base Fees + Additional Fees",
+  "SourceOfTax": "RateDB",
+  "Ceiling": "1000",
+  "FlatFee": "1",
+  "TaxTag": "00",
+  "viewTaxName": "ASHTEST"
+}
